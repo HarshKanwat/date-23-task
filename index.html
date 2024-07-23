@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Tasks</title>
+    <style>
+        .editable {
+            border: 1px dashed #ccc;
+            padding: 5px;
+        }
+        body{
+            text-align: center;
+        }
+        #hoverElement{
+            text-align: center;
+            align-items: center;
+            margin-top: 2rem;
+        }
+        #userValue{
+            color: rgb(32, 58, 5);
+            font-size:larger;
+        }
+    </style>
+</head>
+<body>
+<div id="hoverElement">
+    Hover over me!
+</div>
+<br>
+
+<p><h3 style="color: rgb(161, 116, 58);"><b>Prompt value for read</b></h3></p>
+<span id="userValue"></span>
+
+
+<h1 id="clickHeader">Click here to see coordinates
+    <span id="coordinates"></span>
+</h1>
+<p>This is a paragraph inside the header.</p>
+
+
+<textarea id="textArea" rows="4" cols="50"></textarea>
+<p>Character count: <span id="charCount">0</span></p>
+
+<p id="formMessage"></p>
+
+<button onclick="openFullscreen()">Go Fullscreen</button>
+<button onclick="closeFullscreen()">Exit Fullscreen</button>
+<script src="script.js"></script>
+</body>
+</html>
